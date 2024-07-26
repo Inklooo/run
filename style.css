@@ -24,7 +24,7 @@ p{
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(88, 87, 87, 0.6);
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.7rem;
   border:  1px solid rgba(93, 91, 91, 0.2);
   padding: 12px;
@@ -57,12 +57,23 @@ header{
 }
 .section-1{
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
   height: 400px;
   width: 100%;
 }
-.img{
+.img-l{
   background: url(/img/img-left.jpg)center/cover;
+  width: 100%;
+  height: 100%;
+}
+.section-2{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  height: 400px;
+  width: 100%;
+}
+.img-r{
+  background: url(/img/img-right.jpg)center/cover;
   width: 100%;
   height: 100%;
 }
